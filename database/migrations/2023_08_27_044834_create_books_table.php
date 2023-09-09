@@ -22,15 +22,6 @@ return new class extends Migration
                 ->constrained('users')
                 ->cascadeOnDelete()
                 ->cascadeOnUpdate();
-
-            // $table->string('style_id')->nullable();
-
-            // $table->string('style_id')->nullable();
-            // $table->foreign('style_id')
-            //     ->references('id')
-            //     ->on('styles')
-            //     ->onDelete('set null')
-            //     ->onUpdate('cascade');
         });
     }
 
